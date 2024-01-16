@@ -1,0 +1,6 @@
+.container{
+  margin-top: 30px;
+}
+.last {
+  border-bottom: 1px solid var(--main-bg-gray);
+}

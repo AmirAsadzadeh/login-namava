@@ -1,0 +1,7 @@
+.container {
+  min-width: 360px;
+  min-height: 100vh;
+  background: radial-gradient(at bottom, #0a4d87, #121212 70%);
+  background-repeat: no-repeat;
+  background-position-y: 200px;
+}

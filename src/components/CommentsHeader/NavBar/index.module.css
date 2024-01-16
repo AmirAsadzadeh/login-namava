@@ -1,0 +1,31 @@
+.container {
+  display: none;
+  list-style-type: none;
+}
+
+.container li {
+  font-size: 12px;
+  font-weight: 400;
+  color: white;
+}
+
+.container li:hover {
+  color: var(--main-text-blue);
+}
+
+@media screen and (min-width: 800px) {
+  .container {
+    display: flex;
+    gap: 18px;
+  }
+
+  .container li {
+    font-weight: 700;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    gap: 32px;
+  }
+}

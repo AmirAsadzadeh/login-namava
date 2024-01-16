@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  gap: 8px;
+}
+
+@media screen and (min-width: 800px) {
+  .container {
+    gap: 34px;
+  }
+  .burger-container {
+    display: none;
+  }
+}

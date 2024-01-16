@@ -1,0 +1,33 @@
+.toast-container {
+  position: absolute;
+  width: 100vw;
+  opacity: 0;
+  top: 0;
+  transition: top ease 300ms, opacity ease 300ms;
+}
+
+.toast {
+  padding: 10px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  min-width: 150px;
+  max-width: max-content;
+  margin: auto;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+.error-toast {
+  background-color: var(--main-bg-error);
+}
+
+.success-toast {
+  background-color: var(--main-bg-success);
+}
+
+.active-toast {
+  opacity: 100;
+  top: 50px;
+}

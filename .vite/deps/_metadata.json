@@ -1,0 +1,38 @@
+{
+  "hash": "36f00542",
+  "browserHash": "3a9a30e2",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "7cb9f316",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "7fda7275",
+      "needsInterop": true
+    },
+    "react-lottie": {
+      "src": "../../node_modules/react-lottie/dist/index.js",
+      "file": "react-lottie.js",
+      "fileHash": "00025508",
+      "needsInterop": true
+    },
+    "axios": {
+      "src": "../../node_modules/axios/index.js",
+      "file": "axios.js",
+      "fileHash": "f71710fc",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-ENLGS5T4": {
+      "file": "chunk-ENLGS5T4.js"
+    },
+    "chunk-76J2PTFD": {
+      "file": "chunk-76J2PTFD.js"
+    }
+  }
+}

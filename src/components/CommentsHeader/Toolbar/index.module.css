@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.button {
+  font-size: 12px;
+  font-weight: 400;
+  color: white;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: var(--main-text-blue);
+}
+
+@media screen and (min-width: 800px) {
+  .container {
+    gap: 20px;
+  }
+
+  .button {
+    font-weight: 700;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    font-size: 14px;
+  }
+}

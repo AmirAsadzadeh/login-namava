@@ -1,0 +1,67 @@
+.container {
+  background-color: #37383e;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.title-container {
+  width: max-content;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.title {
+  color: white;
+  font-size: 12px;
+}
+
+.message {
+  width: 40px;
+  height: 40px;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.login,
+.register {
+  padding: 10px 0;
+  border-radius: 5px;
+  width: 100px;
+  text-align: center;
+  font-size: 14px;
+  font-size: 700;
+}
+
+.register {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.login {
+  background-color: var(--main-bg-gray);
+  color: white;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 800px) {
+  .container {
+    flex-direction: row;
+    width: max-content;
+    margin: 20px auto;
+  }
+
+  .title-container {
+    margin: 0;
+  }
+}
